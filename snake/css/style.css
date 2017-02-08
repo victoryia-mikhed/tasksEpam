@@ -1,0 +1,40 @@
+* {
+	font-family: Verdana, sans-serif;
+}
+
+#field {
+	display: block;
+	margin: 40px auto;
+	border: 2px #04837B dashed;
+	background: #a6ffba;
+	width: 640px;
+	height: 480px;
+}
+#start {
+	display: block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	background: white;
+	color: green;
+	font-size: 20px;
+	font-weight: bold;
+	border: 3px green solid;
+	border-radius: 20px;
+}
+
+#start:active, #start:focus {
+    outline: none;
+}
+h1 {
+	text-align: center;
+	color: #3F1263;
+}
+h5 {
+	color: gray;
+	text-align: center;
+}
+#gameover {
+	color: red;
+	text-align: center;
+	display: none;
+}

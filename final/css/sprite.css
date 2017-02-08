@@ -1,0 +1,137 @@
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.sprite-facebook {
+    width: 13px;
+    height: 25px;
+    background-position: -5px -5px;
+}
+
+.sprite-buy {
+    width: 18px;
+    height: 18px;
+    background-position: -28px -5px;
+}
+
+.sprite-camera {
+    width: 16px;
+    height: 16px;
+    background-position: -56px -5px;
+}
+
+.sprite-checked-checkbox {
+    width: 18px;
+    height: 18px;
+    background-position: -82px -5px;
+}
+
+.sprite-clock {
+    width: 15px;
+    height: 15px;
+    background-position: -110px -5px;
+}
+
+.sprite-date {
+    width: 16px;
+    height: 16px;
+    background-position: -135px -5px;
+}
+
+.sprite-down {
+    width: 14px;
+    height: 7px;
+    background-position: -161px -5px;
+}
+
+.sprite-empty-star {
+    width: 13px;
+    height: 13px;
+    background-position: -185px -5px;
+}
+
+.sprite-full-star {
+    width: 13px;
+    height: 13px;
+    background-position: -208px -5px;
+}
+
+.sprite-grid {
+    width: 16px;
+    height: 16px;
+    background-position: -231px -5px;
+}
+
+.sprite-left {
+    width: 22px;
+    height: 22px;
+    background-position: -257px -5px;
+}
+
+.sprite-list {
+    width: 16px;
+    height: 16px;
+    background-position: -289px -5px;
+}
+
+.sprite-magazine {
+    width: 16px;
+    height: 16px;
+    background-position: -315px -5px;
+}
+
+.sprite-pause {
+    width: 26px;
+    height: 26px;
+    background-position: -341px -5px;
+}
+
+.sprite-play {
+    width: 36px;
+    height: 36px;
+    background-position: -377px -5px;
+}
+
+.sprite-plus {
+    width: 16px;
+    height: 16px;
+    background-position: -423px -5px;
+}
+
+.sprite-rating {
+    width: 16px;
+    height: 16px;
+    background-position: -449px -5px;
+}
+
+.sprite-right {
+    width: 22px;
+    height: 22px;
+    background-position: -475px -5px;
+}
+
+.sprite-time {
+    width: 13px;
+    height: 13px;
+    background-position: -507px -5px;
+}
+
+.sprite-twitter {
+    width: 30px;
+    height: 25px;
+    background-position: -530px -5px;
+}
+
+.sprite-unchecked-checkbox {
+    width: 18px;
+    height: 18px;
+    background-position: -570px -5px;
+}
+
+.sprite-youtube {
+    width: 25px;
+    height: 25px;
+    background-position: -598px -5px;
+}

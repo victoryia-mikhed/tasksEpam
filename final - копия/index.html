@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>National Geographic</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/sprite.css">
+	<link rel="stylesheet" href="css/menu-sprite.css">
+	<link rel="stylesheet" href="css/sub-sprite.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="logo"></div>
+			<div class="users-group">
+				<a href="#" class="user-btn sign-up">
+					<span class="icon-sign-up"></span><span class="btn-text">Sign Up</span>
+				</a>
+				<a href="#" class="user-btn login">
+					<span class="icon-login"></span><span class="btn-text">Login</span>
+				</a>
+			</div>
+			<form class="search-form" action="#">
+				<span class="icon-search"></span>
+				<input type="text" class="search-input" placeholder="Search">
+				<a href="#" class="all-categories">All Categories<span class="drop-down-icon"></span></a>				
+				<a href="#" class="go"></a>
+			</form>
+		</header>
+
+		<nav class="menu">
+			<ul class="top-menu">
+				<li>
+					<a href="#" class="menu-btn home">
+						<span class="menu-sprite menu-sprite-home"></span><span class="menu-text">Home</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="menu-btn photography">
+						<span class="menu-sprite menu-sprite-photography"></span><span class="menu-text">Photography</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="menu-btn video">
+						<span class="menu-sprite menu-sprite-video"></span><span class="menu-text">Video</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="menu-btn environment">
+						<span class="menu-sprite menu-sprite-environment"></span><span class="menu-text">Environment</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="menu-btn travel">
+						<span class="menu-sprite menu-sprite-travel"></span><span class="menu-text">Travel</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="menu-btn adventure">
+						<span class="menu-sprite menu-sprite-adventure"></span><span class="menu-text">Adventure</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="menu-btn television">
+						<span class="menu-sprite menu-sprite-television"></span><span class="menu-text">Television</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="menu-btn kids">
+						<span class="menu-sprite menu-sprite-kids"></span><span class="menu-text">Kids</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="content">
+			<nav class="sub-menu">
+				<a href="#" class="sub-menu-link news"><span class="sub-sprite sub-sprite-news"></span><span class="sub-menu-text">Daily News</span></a>
+				<a href="#" class="sub-menu-link magazine"><span class="sub-sprite sub-sprite-magazine"></span><span class="sub-menu-text">Magazine</span></a>
+				<a href="#" class="sub-menu-link maps"><span class="sub-sprite sub-sprite-map-marker"></span><span class="sub-menu-text">Maps</span></a>
+				<a href="#" class="sub-menu-link science"><span class="sub-sprite sub-sprite-test-tube"></span><span class="sub-menu-text">Science</span></a>
+				<a href="#" class="sub-menu-link education"><span class="sub-sprite sub-sprite-education"></span><span class="sub-menu-text">Education</span></a>
+				<a href="#" class="sub-menu-link games"><span class="sub-sprite sub-sprite-joystick"></span><span class="sub-menu-text">Games</span></a>
+				<a href="#" class="sub-menu-link events"><span class="sub-sprite sub-sprite-calendar"></span><span class="sub-menu-text">Events</span></a>
+				<a href="#" class="sub-menu-link blogs"><span class="sub-sprite sub-sprite-topic"></span><span class="sub-menu-text">Blogs</span></a>
+				<a href="#" class="sub-menu-link explorers"><span class="sub-sprite sub-sprite-trekking"></span><span class="sub-menu-text">Explorers</span></a>
+				<a href="#" class="sub-menu-link trips"><span class="sub-sprite sub-sprite-cargo-ship"></span><span class="sub-menu-text">Trips</span></a>
+			</nav>
+			<main>
+				<nav class="tabs-menu">
+					<ul class="tabs">
+						<li><a href="#">Home <span class="down"></span></a></li>
+						<li><a href="#">Animals <span class="down"></span></a></li>
+						<li><a href="#">Ancient <span class="down"></span></a></li>
+						<li><a href="#">Energy <span class="down"></span></a></li>
+						<li><a href="#">Environment <span class="down"></span></a></li>
+						<li><a href="#">Travel <span class="down"></span></a></li>
+					</ul>
+				</nav>
+				<div class="slider">
+					<div class="slide">
+						<img src="img/leopard.png" alt="leopard">
+						<div class="pages">
+							<a class="page active-page" href="#">1</a>
+							<a class="page center-page" href="#">2</a>
+							<a class="page" href="#">3</a>
+						</div>
+					</div>
+					<div class="slide-description">
+						<div class="caption">
+							<h3 class="slide-title">Lion Cubs Playing</h3>
+							<p class="slide-text">African lion cubs play in the grass in the Okavango Delta.</p>
+						</div>
+						<a href="#" class="btn-stop-slides"><span class="pause"></span></a>
+					</div>
+				</div>
+				<div class="sort-news">
+					<a href="#" class="latest"><span class="icon-clock"></span><span class="latest-text">Latest News</span></a>
+					<div class="dropdown">
+						<a href="#" class="sort-menu">Most Recent</a>
+						<ul class="dropdown-sort">
+							<li><a href="#" class="sort-criteria">Most Viewd</a></li>
+							<li><a href="#" class="sort-criteria">Most Recent</a></li>
+							<li><a href="#" class="sort-criteria">Most Discussed</a></li>
+							<li><a href="#" class="sort-criteria">Most Rated</a></li>
+						</ul>
+					</div>
+					<a href="#" class="grid-view"><span></span></a>
+					<a href="#" class="list-view"><span></span></a>
+				</div>
+			</main>
+			<section class="gallery">
+				<div class="popular-news">
+					<a href="#" class="popular"><span class="sprite sprite-rating"></span><span class="title">Most Popular News</span></a>
+
+					<figure class="news-preview">
+						<img src="img/snake.png" alt="snake">
+						<figcaption>
+							<div class="news-info">
+								<a href="#" class="news-title">The Bite That Heals</a>
+								<time class="news-date">6 days ago</time>
+							</div>
+							<div class="rating">
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<p class="votes">71,482 votes</p>
+							</div>
+						</figcaption>
+					</figure>
+
+					<figure class="news-preview">
+						<img src="img/frog.png" alt="frog">
+						<figcaption>
+							<div class="news-info">
+								<a href="#" class="news-title">Stranger Than Nature</a>
+								<time class="news-date">8 days ago</time>
+							</div>
+							<div class="rating">
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<p class="votes">64,159 votes</p>
+							</div>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="popular-videos">
+					<a href="#" class="popular"><span class="sprite sprite-camera"></span><span class="title">Most Popular Videos</span></a>
+
+					<figure class="video-preview">
+						<img src="img/parrot.png" alt="parrot">
+						<figcaption>
+							<div class="video-info">
+								<a href="#" class="video-title">Most Rare Birds Ever</a>
+								<p class="video-views">211,482 views</p>
+							</div>						
+						</figcaption>
+						<a href="#" class="play-video-btn sprite sprite-play"></a>
+					</figure>
+
+					<figure class="video-preview">
+						<img src="img/fish.png" alt="fish">
+						<figcaption>
+							<div class="video-info">
+								<a href="#" class="video-title">Mandarin Dragonet</a>
+								<p class="video-views">192,029 views</p>
+							</div>						
+						</figcaption>
+						<a href="#" class="play-video-btn sprite sprite-play"></a>
+					</figure>
+				</div>
+
+				<div class="upcoming">
+					<div class="section-slider">
+						<a href="#" class="events-link"><span class="sprite sprite-date"></span><span class="title">Upcoming Events</span></a>
+
+						<a href="#" class="next-event sprite sprite-right"></a>
+						<a href="#" class="prev-event sprite sprite-left"></a>
+					</div>
+
+					<div class="event-description">
+						<a href="#" class="event-link"><span class="title">NatGeo Live Student Matinees</span></a>
+						<figure class="event-photo">
+							<img src="img/event.png" alt="event">
+							<time><span class="sprite sprite-time time-icon"></span><span class="time-text">April 17, 2013</span></time>
+						</figure>
+						<p class="event-info">Live Student Matinees offer students in USA and Canada entertaining and visually spectacular presentations by leading explorers</p>
+					</div>
+				</div>
+				<a href="#" class="shopping"><span class="sprite sprite-buy shopping-icon"></span><span class="link-text">Shopping</span></a>
+				<a href="#" class="subscriptions"><span class="sprite sprite-checked-checkbox subscriptions-icon"></span><span class="link-text">Subscriptions</span></a>
+			</section>
+
+			<section class="latest-news">
+				<div class="news-container">
+					<figure class="news-preview">
+						<img src="img/lion.png" alt="lion">
+						<figcaption>
+							<div class="news-info">
+								<a href="#" class="news-title">African Lion Cub</a>
+								<time class="news-date">3 hours ago</time>
+							</div>
+							<div class="rating">
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<span class="empty-star"></span>
+								<p class="votes">1,291 votes</p>
+							</div>
+						</figcaption>
+					</figure>
+					<p class="news-review">An African lion cub rests in the tall grasses of Botswana’s Okavango Delta. Once ranging across the African continent and into Syria, Israel, Iraq, Pakistan, Iran, and even northwest India, lions have declined to as few as 20,000 animals from about 450,000 just 50 years ago.</p>
+				</div>
+				<div class="news-container">
+					<figure class="news-preview">
+						<img src="img/gorilla.png" alt="gorilla">
+						<figcaption>
+							<div class="news-info">
+								<a href="#" class="news-title">Young Mountain Gorilla</a>
+								<time class="news-date">5 hours ago</time>
+							</div>
+							<div class="rating">
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<span class="empty-star"></span>
+								<span class="empty-star"></span>
+								<p class="votes">972 votes</p>
+							</div>
+						</figcaption>
+					</figure>
+					<p class="news-review">This young mountain gorilla, named Kwibesha, is a member of the Kabrizi family of gorillas in Virunga National Park. Wildlife rangers in the park have had to suspend their monitoring of the gorillas because rebel militias and the Congolese army occupy much of their habitat.</p>
+				</div>
+				<div class="news-container">
+					<figure class="news-preview">
+						<img src="img/penguin.png" alt="penguin">
+						<figcaption>
+							<div class="news-info">
+								<a href="#" class="news-title">King Penguins</a>
+								<time class="news-date">8 hours ago</time>
+							</div>
+							<div class="rating">
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<span class="empty-star"></span>
+								<span class="empty-star"></span>
+								<span class="empty-star"></span>
+								<p class="votes">681 votes</p>
+							</div>
+						</figcaption>
+					</figure>
+					<p class="news-review">King penguins live on the more temperate islands north of Antarctica. Although their habitat is warmer than that of emperor penguins, king penguins have four layers of feathers and huddle together for warmth.</p>
+				</div>
+				<div class="news-container">
+					<figure class="news-preview">
+						<img src="img/shark.png" alt="shark">
+						<figcaption>
+							<div class="news-info">
+								<a href="#" class="news-title">Great White Shark</a>
+								<time class="news-date">1 day ago</time>
+							</div>
+							<div class="rating">
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<span class="full-star"></span>
+								<p class="votes">2,827 votes</p>
+							</div>
+						</figcaption>
+					</figure>
+					<p class="news-review">The legendary great white shark is far more fearsome in our imaginations than in reality. As scientific research on these elusive predators increases, their image as mindless killing machines is beginning to fade.</p>
+				</div>
+			</section>
+		</div>
+		<section class="magazines">
+			<div class="section-slider">
+				<a href="#" class="magazine-link"><span class="sprite sprite-magazine"></span><span class="title">National Geographic Magazines</span></a>
+				<a href="#" class="next-event sprite sprite-right"></a>
+				<a href="#" class="prev-event sprite sprite-left"></a>
+			</div>
+
+			<div class="magazine-gallery">
+				<div class="magazine-preview">
+					<figure class="magazine-photo">
+						<img src="img/magazine-1.png" alt="america strikes oil magazine">
+						<a href="#" class="magazine-title">National Geographic Magazine</a>
+					</figure>
+					<div class="rating">
+						<span class="full-star"></span>
+						<span class="full-star"></span>
+						<span class="full-star"></span>
+						<span class="full-star"></span>
+						<span class="full-star"></span>
+						<p class="votes">7,726 votes</p>
+					</div>
+					<a href="#" class="subscribe-magazine"><span class="sprite sprite-plus"></span><span class="sub-text">Subscribe</span></a>
+				</div>
+				<div class="magazine-preview">
+					<figure class="magazine-photo">
+						<img src="img/magazine-2.png" alt="kidsvmagazine">
+						<a href="#" class="magazine-title">National Geographic Kids</a>
+					</figure>
+					<div class="rating">
+						<span class="full-star"></span>
+						<span class="full-star"></span>
+						<span class="full-star"></span>
+						<span class="full-star"></span>
+						<span class="empty-star"></span>
+						<p class="votes">5,841 votes</p>
+					</div>
+					<a href="#" class="subscribe-magazine"><span class="sprite sprite-plus"></span><span class="sub-text">Subscribe</span></a>
+				</div>
+
+				<div class="magazine-preview">
+					<figure class="magazine-photo">
+						<img src="img/magazine-3.png" alt="ng young explorer magazine">
+						<a href="#" class="magazine-title">NG Explorer Magazine</a>
+					</figure>
+					<div class="rating">
+						<span class="full-star"></span>
+						<span class="full-star"></span>
+						<span class="full-star"></span>
+						<span class="full-star"></span>
+						<span class="full-star"></span>
+						<p class="votes">6,121 votes</p>
+					</div>
+					<a href="#" class="subscribe-magazine"><span class="sprite sprite-plus"></span><span class="sub-text">Subscribe</span></a>
+				</div>
+
+				<div class="magazine-preview">
+					<figure class="magazine-photo">
+						<img src="img/magazine-4.png" alt="ng little magazine">
+						<a href="#" class="magazine-title">National Geographic Little</a>
+					</figure>
+					<div class="rating">
+						<span class="full-star"></span>
+						<span class="full-star"></span>
+						<span class="full-star"></span>
+						<span class="full-star"></span>
+						<span class="full-star"></span>
+						<p class="votes">9,107 votes</p>
+					</div>
+					<a href="#" class="subscribe-magazine"><span class="sprite sprite-plus"></span><span class="sub-text">Subscribe</span></a>
+				</div>
+
+
+			</div>
+
+		</section>
+	</div>
+	<footer>
+		<div class="footer-content">
+			<form action="#" class="subscribe-form">
+				<div class="email">
+					<input type="email" placeholder="type your email" class="email-input">
+					<button class="subscribe-btn">Subscribe</button>
+				</div>
+			</form>
+			<div class="social-links">
+				<a href="#" class="social sprite sprite-facebook"></a>
+				<a href="#" class="social sprite sprite-twitter"></a>
+				<a href="#" class="social sprite sprite-youtube"></a>
+			</div>
+
+			<div class="footer-info">
+				<ul class="footer-links">
+					<li><a href="#" class="footer-link">Customer Service</a></li>
+					<li><a href="#" class="footer-link">Advertise With Us</a></li>
+					<li><a href="#" class="footer-link">Terms of Service</a></li>
+					<li><a href="#" class="footer-link">Privacy Policy</a></li>
+				</ul>
+				<p class="copyright">&copy; 1996-2013 National Geographic Society. All rights reserved</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

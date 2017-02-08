@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms and Widgets</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+	<div class="calendar-widget border">
+		<div class="calendar-top">
+			<a class="sprite sprite-prev" href="#"></a><h3 class="month">May 2014</h3><a class="sprite sprite-next" href="#"></a>
+		</div>
+		<div class="calendar-body">
+			<table class="calendar-tbl">
+				<thead>
+					<tr>
+						<th>Sun</th>
+						<th>Mon</th>
+						<th>Tue</th>
+						<th>Wed</th>
+						<th>Thu</th>
+						<th>Fri</th>
+						<th>Sat</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="another-month">29</td>
+						<td class="another-month">30</td>
+						<td>1</td>
+						<td>2</td>
+						<td class="today">3</td>
+						<td>4</td>
+						<td>5</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td class="event">7</td>
+						<td>8</td>
+						<td>9</td>
+						<td>10</td>
+						<td>11</td>
+						<td>12</td>
+					</tr>
+					<tr>
+						<td>13</td>
+						<td>14</td>
+						<td>15</td>
+						<td>16</td>
+						<td>17</td>
+						<td>18</td>
+						<td>19</td>
+					</tr>
+					<tr>
+						<td>20</td>
+						<td>21</td>
+						<td>22</td>
+						<td class="event">23</td>
+						<td>24</td>
+						<td>25</td>
+						<td>26</td>
+					</tr>
+					<tr>
+						<td>27</td>
+						<td>28</td>
+						<td>29</td>
+						<td>30</td>
+						<td class="another-month">1</td>
+						<td class="another-month">2</td>
+						<td class="another-month">3</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<form action="#" class="calendar-form">
+			<button class="add-event btn">Add event</button>
+		</form>
+	</div>
+	<div class="booking-widget border">
+		<figure class="hotel">
+			<img src="img/paris.png" alt="Paris"/>
+			<figcaption class="hotel-name">
+				<h3>Hotel Relais</h3>
+				<h4><span class="sprite sprite-map1"></span> Paris, France</h4>
+			</figcaption>
+		</figure>
+		<form action="#" class="booking-form">
+			<div class="text-input">
+				<label for="check-in">Check in</label>
+				<div class="input">
+					<input type="text" id="check-in" placeholder="9 July, 2016">
+					<a href="#" class="bg-select"><span class="select-date sprite sprite-calendar"></span></a>
+				</div>
+			</div>
+			<div class="text-input">
+				<label for="check-out">Check out</label>
+				<div class="input">
+					<input type="text" id="check-out" placeholder="16 July, 2016">
+					<a href="#" class="bg-select"><span class="select-date sprite sprite-calendar"></span></a>
+				</div>
+			</div>
+			<div class="checkbox-input">
+				<input type="checkbox" id="dates-checkbox">
+				<label for="dates-checkbox">Flexible dates</label>
+			</div>
+
+			<div class="select-group">
+				<div class="select left">
+					<label for="adults">Adults</label>
+					<div class="select-input">
+						<input type="text" id="adults" placeholder="2">
+						<span class="bg-select"><a href="#" class="select-number sprite sprite-triangle"></a></span>
+						<ul class="choose-adults">
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="select right">
+					<label for="children">Children</label>
+					<div class="select-input">
+						<input type="text" id="adults" placeholder="1">
+						<span class="bg-select"><a href="#" class="select-number sprite sprite-triangle"></a></span>
+						<ul class="choose-children">
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<button class="btn search-rooms"><span class="sprite sprite-search"></span>Search rooms</button>
+		</form>
+	</div>
+	
+	<div class="destination-widget border">
+		<ul class="tabs">
+			<li class="view"><a href="#" class="sprite sprite-eye"></a></li>
+			<li class="map"><a href="#" class="sprite sprite-map2"></a></li>
+			<li class="best"><a href="#" class="sprite sprite-star"></a></li>
+		</ul>
+		<article class="fav-place">
+			<h2 class="header-place"><span>My most favourite</span> <span>place in the world</span></h2>
+			<h6 class="review-count"><span>154</span> Reviews</h6>
+			<p class="place-description">Lorem ipsum dolor sit amet, consectetur adipliscing elit. Maecenas a pulvinar ipsum. Aliquam sit amet iaculis dolor. Vivamus sed diam sollicitudin.</p>
+			<a href="#" class="read-more">Read more</a>
+		</article>
+		<figure class="place-photo">
+			<img src="img/place.png" alt="place">
+			<div class="links-wrapper">
+				<a class="comments" href="#"><span class="sprite sprite-comment"></span>752</a>
+				<a class="likes" href="#"><span class="sprite sprite-like"></span>2709</a>
+			</div>
+		</figure>
+	</div>
+
+	<div class="graph-widget border">
+		<ul class="vertical-scale">
+			<li class="value-40">40</li>
+			<li class="value-30">30</li>
+			<li class="value-20">20</li>
+			<li class="value-0">0</li>
+		</ul>
+		<ul class="horizontal-scale">
+			<li class="mon"><span class="graph-label">Mon</span><div class="graph-column" style="height: 49px"><span class="hidden-value">17</span></div></li>
+			<li class="tues"><span class="graph-label">Tues</span><div class="graph-column" style="height: 62px"><span class="hidden-value">19</span></div></li>
+			<li class="wed"><span class="graph-label">Wed</span><div class="graph-column" style="height: 119px"><span class="hidden-value">27</span></div></li>
+			<li class="thu"><span class="graph-label">Thu</span><div class="graph-column" style="height: 158px"><span class="hidden-value">33</span></div></li>
+			<li class="fri"><span class="graph-label">Fri</span><div class="graph-column" style="height: 129px"><span class="hidden-value">28</span></div></li>
+			<li class="sat"><span class="graph-label">Sat</span><div class="graph-column" style="height: 169px"><span class="hidden-value">34</span></div></li>
+			<li class="sun"><span class="graph-label">Sun</span><div class="graph-column" style="height: 143px"><span class="hidden-value">31</span></div></li>
+		</ul>
+	</div>
+
+	<div class="email-widget border">
+		<form action="#" class="email-form">
+			<div class="email-input">
+				<div class="emails">
+					<span class="email-address">rick.james@mail.com <a href="#" class="sprite sprite-remove remove-email"></a></span>
+
+					<!--<span class="email-address">@com <a href="#" class="sprite sprite-remove remove-email"></a></span>
+					
+					<span class="email-address">mail@gmail.com <a href="#" class="sprite sprite-remove remove-email"></a></span>
+
+					<span class="email-address">test@mail <a href="#" class="sprite sprite-remove remove-email"></a></span>-->
+
+				</div>
+				<a href="#" class="add-email"><span class="sprite sprite-plus"></span></a>
+			</div>
+
+			<div class="file-input">
+				<input type="text" id="subject" placeholder="Subject">
+				<label for="file"><span class="add-file sprite sprite-file"></span></label>
+				<input type="file" id="file">
+			</div>
+			<textarea class="message" rows="12" cols="33" name="text" placeholder="Message"></textarea>
+			<button class="send btn">Send</button>
+		</form>
+	</div>
+</body>
+</html>

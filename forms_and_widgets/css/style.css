@@ -1,0 +1,584 @@
+@font-face {
+	font-family: "Gotham-Book";
+	src: url(../font/gotham/GothamSSm-Book.ttf);
+}
+@font-face {
+	font-family: "Gotham-Light";
+	src: url(../font/gotham/GothamSSm-Light.ttf);
+}
+@font-face {
+	font-family: "Gotham-Medium";
+	src: url(../font/gotham/GothamSSm-Medium.ttf);
+}
+html {
+	font-family: "Gotham-Book", Arial, sans-serif;
+}
+body {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.border {
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.7);
+	-moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.7);
+	box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.7);
+	border-radius: 4px;
+	overflow: hidden;
+}
+.calendar-widget {
+	width: 346px;
+}
+.calendar-top {
+	font-size: 0;
+	color: white;
+	box-sizing: border-box;
+	background-color: #404a58;
+	padding: 21px 35px 22px 38px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+}
+.month {
+	display: inline-block;
+	font-weight: normal;
+	margin: 0;
+	font-size: 17px;
+	padding-left: 85px;
+	padding-right: 85px;
+}
+.calendar-tbl {
+	box-sizing: border-box;
+	padding: 23px 30px 20px 30px;
+	width: 346px;
+	border: 0;
+	font-size: 13px;
+	font-weight: normal;
+}
+.calendar-tbl td {
+	text-align: center;
+}
+.calendar-tbl thead {
+	padding: 0;
+	color: #666666;
+}
+th {
+	padding-bottom: 12px;
+	width: 41px;
+}
+td {
+	color: #666666;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+td:hover {
+	border-radius: 100%;
+	background-color: #404a58;
+	color: #ffffff;
+	font-weight: bold;
+}
+.another-month {
+	color: #c5c5c5;
+}
+.event {
+	color: #fb6362;
+	font-weight: bold;
+}
+.today {
+	border-radius: 100%;
+	background-color: #fb6362;
+	color: #ffffff;
+	font-weight: bold;
+}
+form {
+	padding-left: 23px;
+	padding-right: 24px;
+}
+.btn {
+	text-transform: uppercase;
+	background-color: #fb6362;
+	border: none;
+	color: #ffffff;
+	border-radius: 4px;
+	font-family: "Gotham-Book", Arial, sans-serif;
+	font-size: 15px;
+	margin: 0;
+	margin-bottom: 25px;
+	width: 100%;
+	height: 58px;
+	line-height: 58px;
+	-webkit-box-shadow: 0px 2px 1px -1px rgba(50, 50, 50, 1);
+	-moz-box-shadow:    0px 2px 1px -1px rgba(50, 50, 50, 1);
+	box-shadow:         0px 2px 1px -1px rgba(50, 50, 50, 1);
+}
+.btn:hover {
+	background-color: #404a58;
+	transition: 0.4s ease;
+}
+
+.booking-widget {
+	width: 346px;
+	margin-top: 20px;
+}
+.hotel {
+	margin: 0;
+	position: relative;
+}
+.hotel-name {
+	color: #ffffff;
+	margin: 23px;
+	margin-bottom: 22px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.hotel-name h3 {
+	margin: 0;
+	font-size: 24px;
+}
+.hotel-name h4 {
+	margin: 0 0 0 4px;
+	font-weight: normal;
+	font-size: 14px;
+}
+.sprite-map1 {
+	vertical-align: -4px;
+}
+.booking-form {
+	font-size: 14px;
+	box-sizing: border-box;
+	padding: 0 23px 20px 23px;
+}
+.input, .select-input {
+	box-sizing: border-box;
+	background: #f4f4f4;
+	margin: 9px 2px 11px 2px;
+	padding: 4px 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0px 1px 4px 0px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    inset 0px 1px 4px 0px rgba(50, 50, 50, 0.3);
+	box-shadow:         inset 0px 1px 4px 0px rgba(50, 50, 50, 0.3);
+	clear: none;
+	overflow: hidden;
+}
+.select-input {
+	width: 137px;
+}
+.text-input {
+	margin-top: 20px;
+}
+input[type="text"], .message {
+	border: none;
+	font-family: "Gotham-Book", Arial, sans-serif;
+	font-size: 14px;
+	background-color: transparent;
+	float: left;
+	box-sizing: border-box;
+	padding: 12px 8px 10px 8px;
+}
+input[type="text"] {
+	width: 240px;
+}
+#adults, #children {
+	width: 50px;
+	font-size: 15px;
+	color: black;
+}
+input[type="text"]:focus, .message:focus {
+	outline: none;
+}
+.bg-select {
+	display: inline-block;
+	float: right;
+	border: none;
+	border-radius: 2px;
+	box-sizing: border-box;
+	width: 37px;
+	height: 37px;
+	background: #414b59;
+}
+.bg-select:hover {
+	background: #fb6362;
+}
+.select-date {
+	display: inline-block;
+	margin: 10px;
+	margin-left: 11px;
+}
+.select-number {
+	display: inline-block;
+	margin: 15px;
+	margin-left: 14px;
+}
+.select-group {
+	margin-top: 28px;
+	margin-bottom: 25px;
+}
+.checkbox-input {
+	margin-top: 18px;
+}
+.booking-form input[type="checkbox"] {
+	display: none;
+}
+label[for="dates-checkbox"] {
+	position: relative;
+	box-sizing: border-box;
+	padding-left: 35px;
+}
+label[for="dates-checkbox"]:before {
+	content: '';
+	position: absolute;
+	margin-left: 2px;
+	left: 0;
+	top: -3px;
+	width: 23px;
+	height: 23px;
+	background: #f4f4f4;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0px 1px 4px 0px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    inset 0px 1px 4px 0px rgba(50, 50, 50, 0.3);
+	box-shadow:         inset 0px 1px 4px 0px rgba(50, 50, 50, 0.3);
+}
+label[for="dates-checkbox"]:after {
+	content: '';
+	display: block;
+	position: absolute;
+	margin-left: 2px;
+	left: 4px;
+	top: 3px;
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 11px;
+    background-position: -67px -5px;
+}
+.select-group {
+	width: 100%;
+	overflow: hidden;
+}
+.search-rooms {
+	width: calc(100% - 4px);
+	box-sizing: border-box;
+	margin: 0px 2px 6px 2px;
+}
+.search-rooms .sprite-search {
+	margin-right: 20px;
+	vertical-align: -5px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.select-input {
+	position: relative;
+	overflow: hidden;
+}
+.choose-adults, .choose-children {
+	display: none;
+	position: absolute;
+	list-style-type: none;
+	width: 137px;
+	box-sizing: border-box;
+	margin: 0;
+	margin-left: 2px;
+	padding: 0;
+	font-size: 0;
+	top: 45px;
+	left: -2px;
+}
+.choose-adults li a {
+	box-sizing: border-box;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	background: #f4f4f4;
+	font-size: 14px;
+	color: #a9a9a9;
+	text-decoration: none;
+	padding-left: 12px;
+	-webkit-box-shadow: inset 0px 1px 4px 0px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    inset 0px 1px 4px 0px rgba(50, 50, 50, 0.3);
+	box-shadow:         inset 0px 1px 4px 0px rgba(50, 50, 50, 0.3);
+}
+
+.destination-widget {
+	margin-top: 20px;
+	width: 792px;
+	height: 340px;
+}
+.tabs {
+	float: left;
+	height: 100%;
+	font-size: 0;
+	box-sizing: border-box;
+	width: 72px;
+	margin: 0;
+	padding: 0;
+}
+.tabs li {
+	box-sizing: border-box;
+}
+.tabs li:hover {
+	background: #fb6362;
+	transition: 0.4s ease;
+}
+.view {
+	height: 113px;
+	padding-top: 47px;
+	background: #fb6362;
+}
+.map {
+	height: 114px;
+	box-sizing: border-box;
+	border-top: 1px solid #242931;
+	border-bottom: 1px solid #242931;
+	padding-top: 42px;
+	background-color: #404a58;
+}
+.best {
+	height: 113px;
+	padding-top: 46px;
+	background-color: #404a58;
+}
+.view a, .map a, .best a {
+	display: block;
+	margin: auto;
+}
+.fav-place {
+	display: block;
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	width: 357px;
+	height: 100%;
+	padding: 26px 40px 31px 33px;
+}
+.fav-place:after {
+	content: '';
+	position: absolute;
+	border: 23px solid transparent;
+	border-left-color: white;
+	z-index: 2;
+	right: -42px;
+	top: 37px;
+	width: 0;
+	height: 0;
+}
+.header-place {
+	margin: 0;
+	font-size: 20px;
+	letter-spacing: -0.02em;
+	line-height: 30px;
+	color: #4d4d4d;
+}
+.header-place span {
+	display: block;
+}
+.review-count {
+	font-weight: normal;
+	font-size: 14px;
+	margin: 10px 0 0 0;
+	color: #999999;
+}
+.review-count span {
+	color: #4d4d4d;
+}
+.place-description {
+	margin-top: 30px;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: -0.02em;
+}
+.read-more {
+	margin-top: 20px;
+	font-size: 14px;
+	letter-spacing: -0.02em;
+	color: #fb6362;
+	text-decoration: none;
+}
+.place-photo {
+	position: relative;
+	margin: 0;
+	display: block;
+	float: left;
+}
+.links-wrapper {
+	position: absolute;
+	bottom: 27px;
+	right: 28px;
+}
+.links-wrapper a {
+	color: white;
+	text-decoration: none;
+	margin-left: 15px;
+}
+.likes span, .comments span {
+	vertical-align: -5px;
+	margin-right: 10px;
+}
+
+.graph-widget {
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding: 40px;
+	padding-bottom: 10px;
+	width: 791px;
+	height: 340px;
+}
+.vertical-scale {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 12px;
+}
+.vertical-scale li {
+	color: #666666;
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 2px;
+}
+.value-40 {
+	padding-top: 9px;
+}
+.value-30, .value-20 {
+	padding-top: 52px;
+}
+.value-0 {
+	padding-top: 53px;
+}
+.horizontal-scale {
+	margin: 7px 0 0 64px;
+	padding: 0;
+	font-size: 0;
+}
+.horizontal-scale li {
+	color: #666666;
+	display: inline-block;
+	font-size: 12px;
+	width: 55px;
+	margin-right: 35px;
+	text-align: center;
+	position: relative;
+}
+.horizontal-scale li div {
+	position: absolute;
+	bottom: 23px;
+	width: 100%;
+	height: 0px;
+	background-color: #fb6362;
+	border-radius: 2px;
+}
+.hidden-value {
+	box-sizing: border-box;
+	display: none;
+	position: absolute;
+	top: -45px;
+	text-align: center;
+	background-color: #404a58;
+	width: 100%;
+	padding: 8px;
+	border-radius: 2px;
+	color: white;
+}
+.hidden-value:after {
+	content: '';
+	display: none;
+	border: 8px solid transparent;
+	border-top-color: #404a58;
+	position: absolute;
+	bottom: -15px;
+	left: 19px;
+
+}
+.graph-column:hover .hidden-value {
+	display: block;
+}
+.graph-column:hover .hidden-value:after {
+	display: block;
+}
+.graph-column {
+	animation: grow 1.5s;
+	animation-delay: 1s;
+}
+
+@keyframes grow {
+	from {
+		height: 0;
+	}
+}
+
+.email-widget {
+	margin-top: 20px;
+	width: 380px;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.email-form {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.email-input, .file-input, .message {
+	box-sizing: border-box;
+	background: #f4f4f4;
+	margin: 5px;
+	padding: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0px 1px 4px 0px rgba(50, 50, 50, 0.3);
+	-moz-box-shadow:    inset 0px 1px 4px 0px rgba(50, 50, 50, 0.3);
+	box-shadow:         inset 0px 1px 4px 0px rgba(50, 50, 50, 0.3);
+	clear: none;
+	overflow: hidden;
+	margin-bottom: 25px;
+}
+.email-input {
+	padding: 4px 4px 0px 4px;
+}
+.emails {
+	float: left;
+	max-width: 285px;
+	font-size: 0;
+}
+.email-address {
+	display: inline-block;
+	background: #404a58;
+	padding: 10px;
+	color: white;
+	font-size: 14px;
+	margin-bottom: 4px;
+	margin-right: 4px;
+}
+.add-email {
+	display: inline-block;
+	float: right;
+	margin: 10px;
+}
+.remove-email {
+	margin-left: 2px;
+}
+#file {
+	display: none;
+}
+.file-input {
+	margin-bottom: 18px;
+}
+.add-file {
+	float: right;
+	margin: 10px;
+	cursor: pointer;
+}
+.message {
+	margin: 5px;
+	resize: none;
+	padding: 13px 12px 18px 12px;
+	width: 330px;
+	box-sizing: border-box;
+}
+.send {
+	float: right;
+	width: 127px;
+	margin: 5px;
+	margin-top: 20px;
+	line-height: 48px;
+	height: 48px;
+}

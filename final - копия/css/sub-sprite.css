@@ -1,0 +1,125 @@
+.sub-sprite {
+    background-image: url(../img/sub-sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sub-sprite-calendar {
+    width: 26px;
+    height: 26px;
+    background-position: -5px -5px;
+}
+
+.sub-sprite-calendar-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -41px -5px;
+}
+
+.sub-sprite-cargo-ship {
+    width: 26px;
+    height: 26px;
+    background-position: -77px -5px;
+}
+
+.sub-sprite-cargo-ship-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -113px -5px;
+}
+
+.sub-sprite-education {
+    width: 32px;
+    height: 26px;
+    background-position: -149px -5px;
+}
+
+.sub-sprite-education-hover {
+    width: 32px;
+    height: 26px;
+    background-position: -191px -5px;
+}
+
+.sub-sprite-joystick {
+    width: 26px;
+    height: 26px;
+    background-position: -233px -5px;
+}
+
+.sub-sprite-joystick-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -269px -5px;
+}
+
+.sub-sprite-magazine {
+    width: 26px;
+    height: 26px;
+    background-position: -305px -5px;
+}
+
+.sub-sprite-magazine-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -341px -5px;
+}
+
+.sub-sprite-map-marker {
+    width: 26px;
+    height: 26px;
+    background-position: -377px -5px;
+}
+
+.sub-sprite-map-marker-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -413px -5px;
+}
+
+.sub-sprite-news {
+    width: 26px;
+    height: 26px;
+    background-position: -449px -5px;
+}
+
+.sub-sprite-news-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -485px -5px;
+}
+
+.sub-sprite-test-tube {
+    width: 26px;
+    height: 26px;
+    background-position: -521px -5px;
+}
+
+.sub-sprite-test-tube-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -557px -5px;
+}
+
+.sub-sprite-topic {
+    width: 26px;
+    height: 26px;
+    background-position: -593px -5px;
+}
+
+.sub-sprite-topic-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -629px -5px;
+}
+
+.sub-sprite-trekking {
+    width: 26px;
+    height: 26px;
+    background-position: -665px -5px;
+}
+
+.sub-sprite-trekking-hover {
+    width: 26px;
+    height: 26px;
+    background-position: -701px -5px;
+}

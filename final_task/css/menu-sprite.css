@@ -1,0 +1,101 @@
+.menu-sprite {
+    background-image: url(../img/menu-sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.menu-sprite-adventure {
+    width: 38px;
+    height: 29px;
+    background-position: -5px -5px;
+}
+
+.menu-sprite-adventure-hover {
+    width: 38px;
+    height: 29px;
+    background-position: -53px -5px;
+}
+
+.menu-sprite-environment {
+    width: 38px;
+    height: 29px;
+    background-position: -101px -5px;
+}
+
+.menu-sprite-environment-hover {
+    width: 38px;
+    height: 29px;
+    background-position: -149px -5px;
+}
+
+.menu-sprite-home {
+    width: 38px;
+    height: 29px;
+    background-position: -197px -5px;
+}
+
+.menu-sprite-home-hover {
+    width: 38px;
+    height: 29px;
+    background-position: -245px -5px;
+}
+
+.menu-sprite-kids {
+    width: 38px;
+    height: 29px;
+    background-position: -293px -5px;
+}
+
+.menu-sprite-kids-hover {
+    width: 38px;
+    height: 29px;
+    background-position: -341px -5px;
+}
+
+.menu-sprite-photography {
+    width: 38px;
+    height: 29px;
+    background-position: -389px -5px;
+}
+
+.menu-sprite-photography-hover {
+    width: 38px;
+    height: 29px;
+    background-position: -437px -5px;
+}
+
+.menu-sprite-television {
+    width: 38px;
+    height: 29px;
+    background-position: -485px -5px;
+}
+
+.menu-sprite-television-hover {
+    width: 38px;
+    height: 29px;
+    background-position: -533px -5px;
+}
+
+.menu-sprite-travel {
+    width: 38px;
+    height: 29px;
+    background-position: -581px -5px;
+}
+
+.menu-sprite-travel-hover {
+    width: 38px;
+    height: 29px;
+    background-position: -629px -5px;
+}
+
+.menu-sprite-video {
+    width: 38px;
+    height: 29px;
+    background-position: -677px -5px;
+}
+
+.menu-sprite-video-hover {
+    width: 38px;
+    height: 29px;
+    background-position: -725px -5px;
+}

@@ -1,0 +1,16 @@
+body {
+	height: 2000px;
+	font-family: Arial;
+	margin: 0;
+	margin-top: 8px;
+}
+.container {
+	width: 1020px;
+	margin: auto;
+}
+.avatar {
+	
+	position: relative;
+	width: 230px;
+	height: 230px;
+}

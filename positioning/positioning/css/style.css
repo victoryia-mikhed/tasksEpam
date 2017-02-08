@@ -1,0 +1,111 @@
+body {
+	height: 2000px;
+	font-family: Arial;
+	margin: 0;
+	margin-top: 8px;
+}
+.container {
+	width: 1020px;
+	margin: auto;
+}
+.avatar {
+	float: left;
+	position: relative;
+	width: 230px;
+	height: 230px;
+}
+.photo {
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	border: 3px solid #3593c9;
+}
+.avatar div {
+	width: 32px;
+	height: 32px;
+	background-image: url(img/icon-sprite.png);
+	position: absolute;
+}
+.twitter-icon {
+	top: 15px;
+	left: 15px;
+}
+.thumblr-icon {
+	background-position:0 -96px;
+	top: 150px;
+	left: 165px;
+}
+.facebook-icon {
+	background-position:0 -32px;
+	top: 175px;
+	left: 133px;
+}
+.pinterest-icon {
+	background-position:0 -64px;
+	top: 190px;
+	left: 95px;
+}
+.central-block {
+	float: left;
+	width: 510px;
+	height: 610px;
+	margin: auto;
+	margin-top: 160px;
+	position: relative;
+}
+.central-block * {
+	width: 500px;
+	height: 600px;
+	position: absolute;
+}
+.rectangle-bottom {
+	top: 10px;
+	left: 10px;
+	background: #0089B2;
+}
+.rectangle-center {
+	top: 5px;
+	left: 5px;
+	background: #364F86;
+}
+.rectangle-top {
+	top: 0px;
+	left: 0px;
+	background: #D8464C;
+}
+.fixed-block {
+	position: fixed;
+	width: 300px;
+	background-color: rgba(0, 0, 0, 0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#77000000,endColorstr=#77000000);
+	bottom: 20px;
+	right: 0px;
+	padding: 20px;
+}
+.picture {
+	height: 80px;
+	width: 80px;
+	background: #F7E360;
+	float: left;
+	margin-right: 20px;
+}
+.contacts {
+	float: left;
+}
+h5 {
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 12px;
+	color: white;
+}
+.fixed-block {
+	font-size: 12px;
+	color: white;
+}
+.fixed-block span {
+	font-weight: bold;
+}
+.contacts p {
+	margin: 0;
+}

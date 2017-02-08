@@ -1,0 +1,152 @@
+html {
+	height: 100%;
+}
+body {
+	font-family: Arial;
+	height: 100%;
+	margin: 0;
+	box-sizing: border-box;
+	padding-top: 8px;
+}
+.container {
+	margin: 0 auto;
+	width: 795px;
+	position: relative;
+	height: 100%;
+}
+header {
+	background-color: #cccccc;
+	box-sizing: border-box;
+	width: 100%;
+	border: 1px #6b6b6b solid;
+	border-bottom: none;
+	margin-bottom: 10px;
+}
+.logo {
+	width: 69px;
+	height: 69px;
+	background-color: white;
+	margin: 10px 0 0 10px;
+	float: left;
+	margin-bottom: 20px;
+}
+hgroup {
+	margin: 10px 0 0 8px;
+	float: left;
+	color: #6b6b6b;
+}
+h1 {
+	font-weight: normal;
+	font-size: 24px;
+	margin: 0;
+}
+header h3 {
+	font-weight: normal;
+	font-size: 14px;
+	margin: -5px 0 0 0;
+}
+.top-nav {
+	background-color: #383838;
+	clear: both;
+}
+.top-nav ul {
+	margin: 0;
+	padding-left: 5px;
+	list-style-type: none;
+	border-top: 1px #6b6b6b solid;
+}
+.top-nav ul li {
+	display: inline-block;
+}
+.top-nav ul li a {
+	display: block;
+	line-height: 30px;
+	height: 30px;
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.top-nav a:hover {
+	color: #000;
+	background-color: white;
+}
+.content {
+	overflow: hidden;
+	width: 100%;
+	min-height: 100%;
+	box-sizing: border-box;
+	padding-bottom: 35px;
+}
+.left {
+	box-sizing: border-box;
+	float: left;
+	width: 224px;
+	margin-right: -224px;
+	padding: 11px;
+	position: relative;
+}
+.left-nav {
+	background-color: #383838;
+}
+.left-nav ul {
+	margin: 0;
+	padding-left: 0px;
+	list-style-type: none;
+}
+.left-nav ul li a {
+	display: block;
+	line-height: 33px;
+	height: 33px;
+	color: white;
+	font-size: 14px;
+	text-decoration: none;
+	padding-left: 15px;
+}
+.left-nav a:hover {
+	background-color: white;
+	color: #000;
+	text-decoration: underline;
+}
+main {
+	float: left;
+	width: 551px;
+	border-left: 224px solid #cccccc;
+	padding: 10px;
+	padding-top: 5px;
+}
+article h2 {
+	color: #383838;
+	font-weight: normal;
+	font-size: 18px;
+	margin: 0;
+}
+article p {
+	margin: 5px 0;
+	font-size: 12px;
+	line-height: 1.4em;
+}
+article h3 {
+	color: #383838;
+	margin: 0;
+	margin-top: 10px;
+	margin-left: 2px;
+	font-weight: normal;
+	font-size: 16px;	
+}
+article ul {
+	margin-top: 13px;
+	font-size: 12px;
+	padding-left: 24px;
+}
+article ul li {
+	margin-bottom: 3px;
+	list-style-position: inside;
+}
+footer {
+	width: 100%;
+	height: 25px;
+	background-color: #383838;
+	margin-top: -25px;
+}

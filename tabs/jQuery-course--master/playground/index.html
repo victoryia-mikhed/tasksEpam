@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Playground</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    
+
+    <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/ui-lightness/jquery-ui.css">
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.11.2/jquery-ui.min.js"></script>
+
+
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <aside>
+        <p>Add your own tab</p>
+        <a href="#" class="collapse" title="collapse">&#8656;</a>
+        <form name="newTab">
+            <div class="input-group">
+                <label for="text">Index</label>
+                <input type="text" id="text">
+            </div>
+            <div class="input-group">
+                <label for="title">Title</label>
+                <input type="text" id="title">
+            </div>
+            <div class="input-group">
+                <label for="html">HTML content</label>
+                <textarea id="html"></textarea>
+            </div>
+            <div class="input-group">
+                <label for="datepicker">Date</label>
+                <input type="text" id="datepicker">
+            </div>
+            <div class="input-group">
+                <label for="image">Image</label>
+                <input type="text" id="image">
+            </div>
+            <button id="add">ADD</button>
+            <button id="reset">RESET</button>
+            <button id="edit">EDIT</button>
+        </form>
+    </aside>
+    <main>
+        <div class="image-container">
+            <a href="#" class="prev nav">Prev</a><img class="slider" src="img/fox.png" alt="slider"><a href="#" class="next nav">Next</a>          
+        </div>
+        <ul class="tabs">
+            <li class="tab active-tab" data-img="img/fox.png"><span class="tab-text">One</span></li>
+            <li class="tab" data-img="img/bears.png"><span class="tab-text">Two</span></li>
+            <li class="tab" data-img="img/penguin.png"><span class="tab-text">Three</span></li>
+            <li class="tab" data-img="img/tiger.png"><span class="tab-text">Four</span></li>
+        </ul>
+        <div class="container">
+            <ul class="tabs-content">
+
+                <li class="tab-content active-content">
+                    <h3>This is the tab "One"</h3>
+                    <p>Actual due date: 05/24/2016</p>
+                </li>
+
+                <li class="tab-content">
+                    <h3>This is the tab "Two"</h3>
+                    <p>Actual due date: 05/24/2016</p>
+                </li>
+
+                <li class="tab-content">
+                    <h3>This is the tab "Three"</h3>
+                    <p>Actual due date: 05/24/2016</p>
+                </li>
+
+                <li class="tab-content">
+                    <h3>This is the tab "Four"</h3>
+                    <p>Actual due date: 05/24/2016</p>
+                </li>
+
+            </ul>
+        </div>
+    </main>
+    
+</body>
+</html>
